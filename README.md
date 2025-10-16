@@ -4,5 +4,5 @@
 source .venv/bin/activate
 
 # command to start app:
-python3 -m flask --app website run --debug --port 8000
+python3 -m flask --app Acadia run --debug --port 8000
 

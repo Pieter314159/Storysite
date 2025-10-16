@@ -1,6 +1,6 @@
 from flask import Flask
 
-from website import pages
+from Acadia import pages
 
 def create_app():
     app = Flask(__name__)
