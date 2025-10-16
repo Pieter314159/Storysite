@@ -5,5 +5,8 @@
 {% endblock header %}
 
 {% block content %}
-<div id="gen"><p>Learn about the website here: <a href="{{ url_for('pages.about') }}">About</a></p></div>
+<div id="gen">
+    <p>Learn about the website here: <a href="{{ url_for('pages.about') }}">About</a></p>
+    <p>Login here: <li><a href="{{ url_for('pages.login') }}">Login</a></li></p>
+</div>
 {% endblock content %}

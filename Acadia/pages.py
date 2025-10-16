@@ -9,3 +9,10 @@ def home():
 @bp.route("/about")
 def about():
     return render_template("pages/about.html")
+@bp.route("/stories")
+def stories():
+    return render_template("pages/stories.html")
+
+@bp.route("/login")
+def login():
+    return render_template("pages/login.html")
